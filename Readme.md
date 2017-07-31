@@ -250,13 +250,13 @@ AWS Lambda lets you run code without provisioning or managing servers. You pay o
  3. Change the GAME_NAME variable to the name of your skill.
 
  ```JSON
- "GAME_NAME": "Reindeer Trivia"
+ "GAME_NAME": "Security Trivia"
  ```
 
  4. Update your questions. The questions.js file contains all the questions that will be mapped to the custom slots you defined earlier in your skill. Locate the directory you downloaded earlier, and open the questions.js file with your favorite text editor. Look for corresponding language question list by "Ctrl-F" **QUESTIONS_EN_US** for English(U.S.), **QUESTIONS_EN_GB** for English(U.K.) and **QUESTIONS_DE_DE** for German. Each language block contains a list of questions. Here is a snippet of code for reference.
 ![](https://s3.amazonaws.com/lantern-code-samples-images/trivia/questions.PNG)
 Simply replace the reindeer questions with yours in current language.
-**Note**: 
+**Note**:
 * The first answer should be the correct answer. The script logic will randomize the questions and answers for you. You'll need at least four answers for each question, but more will increase user engagement.
 * You’ll need a bare minimum of seven question-and-answer sets, but we recommend at least 20. The best user experiences will have 100 or more.
 
@@ -265,7 +265,7 @@ Simply replace the reindeer questions with yours in current language.
  ![](https://s3.amazonaws.com/lantern-code-samples-images/trivia/changeAppId.PNG)
 
 
- 6. Copy the Application Id into the value of the APP_ID variable in index.js. 
+ 6. Copy the Application Id into the value of the APP_ID variable in index.js.
  ```JSON
  var APP_ID = undefined;  // TODO replace with your app ID.
  ```
@@ -385,4 +385,3 @@ Congratulations! You have successfully submitted your skill for publication. You
 * [Voice Design 101 - On Demand Webinar](https://goto.webcasts.com/starthere.jsp?ei=1087594)
 * [Developer Office Hours](https://attendee.gotowebinar.com/rt/8389200425172113931)
 * [Developing Skills in Multiple Languages](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-skills-in-multiple-languages)
-

@@ -1,7 +1,7 @@
 {
-  "name": "skill-sample-js-trivia",
+  "name": "security-trivia",
   "version": "1.0.0",
-  "description": "A simple trivia skill i18n version.",
+  "description": "A simple trivia skill to test basic cyber security knowledge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,12 @@
   "keywords": [
     "alexa",
     "skill",
-    "trivia"
+    "trivia",
+    "security"
   ],
-  "author": "Amazon.com",
+  "author": "Jessica Koch",
   "license": "Apache-2.0",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.11"
   }
 }
